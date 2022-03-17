@@ -34,7 +34,18 @@ body {
   width: 1140px;
   margin: 0 auto;
   position: center;
+  /* position: fixed; */
 }
+
+/* .nav{
+  overflow: hidden;
+  background-color: rgba(31, 31, 31, 0.363);
+  position: fixed;
+  top: 0;
+  width: 90%;
+  margin-left: 5%;
+} */
+/* margin-left: 5%; */
 
 .row:before,
 .row:after {
@@ -85,12 +96,14 @@ h1,
   text-transform: uppercase;
   letter-spacing: 2px;
   word-spacing: 5px;
+
 }
 
 h1 {
   font-weight: 100;
   font-size: 300%;
   padding: 10px 0;
+  margin-bottom: 2%;
 }
 
 span {
@@ -106,7 +119,7 @@ span {
 .My-profile h2 {
   font-weight: 300;
   font-size: 120%;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 /* ======================== Button =============== */

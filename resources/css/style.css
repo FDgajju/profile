@@ -29,6 +29,10 @@ body {
 
 /* ======================== Reusable component ======================= */
 
+.titleLogo{
+  border-radius: 50px;
+}
+
 .row {
   zoom: 1;
   width: 1140px;

@@ -69,8 +69,10 @@ section {
 /* ============================== Header ========================== */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(img/Background-image.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/Background-image.jpg); */
+  /* background-color: rgb(255, 255, 255); */
+  background-image: linear-gradient(rgba(201, 201, 201, 0.8), rgba(255, 255, 255, 0.8));
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -87,11 +89,11 @@ header {
 }
 
 .My-profile {
-  text-align: left;
+  text-align: center;
   width: 1140px;
-  margin: 0 auto;
+  margin: auto;
   padding: 5%;
-  color: #fff;
+  color: rgb(59, 59, 59);
 }
 
 h1,
@@ -161,7 +163,8 @@ span {
 }
 
 .main-nav {
-  float: right;
+  /* float: right; */
+  text-align: center;
   list-style: none;
   margin-top: 35px;
 }
@@ -175,7 +178,8 @@ span {
 .main-nav li a:visited {
   padding: 8px 0;
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
+  color: rgb(59, 59, 59);
   text-transform: uppercase;
   font-size: 80%;
   border-bottom: 2px solid transparent;

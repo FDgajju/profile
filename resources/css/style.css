@@ -72,11 +72,11 @@ header {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(img/Background-image.jpg); */
   /* background-color: rgb(255, 255, 255); */
-  background-image: linear-gradient(rgba(201, 201, 201, 0.8), rgba(255, 255, 255, 0.8));
+  background-image: linear-gradient(rgb(90, 90, 90), rgba(255, 255, 255, 0.8));
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   overflow: hidden;
 }
 
@@ -85,7 +85,7 @@ header {
   border-radius: 50%;
   padding: 5px;
   border: 2px solid #e67e22;
-  border-style: inset;
+  border-style: outset;
 }
 
 .My-profile {
@@ -179,7 +179,7 @@ span {
   padding: 8px 0;
   text-decoration: none;
   /* color: #fff; */
-  color: rgb(59, 59, 59);
+  color: rgb(201, 201, 201);
   text-transform: uppercase;
   font-size: 80%;
   border-bottom: 2px solid transparent;
